@@ -20,7 +20,7 @@ function sampleItem(overrides?: Partial<Parameters<typeof addToCart>[0]>) {
     };
 }
 
-describe('src/lib/cart', () => {
+describe('src/features/cart/cart', () => {
     beforeEach(() => {
         window.localStorage.clear();
     });

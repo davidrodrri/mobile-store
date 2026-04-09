@@ -10,7 +10,7 @@ import {
     readCart,
     removeFromCart,
     type CartItem,
-} from '@/lib/cart';
+} from '@/features/cart/cart';
 
 const Page = styled.section`
     width: 100%;

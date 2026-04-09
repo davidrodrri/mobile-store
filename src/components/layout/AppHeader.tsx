@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
 import styled from 'styled-components';
-import { getCartCount, readCart } from '@/lib/cart';
+import { getCartCount, readCart } from '@/features/cart/cart';
 
 const Header = styled.header`
     position: sticky;

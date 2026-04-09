@@ -6,7 +6,7 @@ import styled from 'styled-components';
 import type { ProductEntity } from '@/types/product';
 
 import { Button } from '@/components/ui/Button';
-import { addToCart } from '@/lib/cart';
+import { addToCart } from '@/features/cart/cart';
 import { ColorSwatches } from './components/ColorSwatches';
 import { StorageOptions } from './components/StorageOptions';
 

@@ -13,6 +13,7 @@ const Page = styled.section`
     display: flex;
     justify-content: center;
     box-sizing: border-box;
+    padding-bottom: 100px;
 `;
 
 const PageInner = styled.div`

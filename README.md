@@ -95,18 +95,18 @@ Estructura (resumen):
 - `src/features/`
   - `landing/`: pantalla de listado + buscador
   - `product-detail/`: componentes de detalle (selectores, specs, similares)
-  - `cart/`: vista del carrito
+  - `cart/`: vista (`Cart.tsx`), utilidades de carrito + `localStorage` (`cart.ts`)
 - `src/components/`
   - `layout/AppHeader.tsx`: navegación (home + contador carrito)
   - `products/ProductCard.tsx`: tarjeta de producto
   - `ui/`: componentes UI reutilizables
-- `src/lib/`
-  - `cart.ts`: utilidades de carrito + persistencia en `localStorage`
 
 ### Capa de datos y API
 
 - **Carga inicial (Home y Detalle)**: se hace desde Server Components (`src/app/page.tsx`, `src/app/product/[id]/page.tsx`) con `fetch` y header `x-api-key`.
 - **Búsqueda**: el buscador llama a `GET /api/products?search=...` (route handler en `src/app/api/products/route.ts`), que reenvía la petición a la API externa y devuelve una lista deduplicada.
+
+> **Nota:** Para **persistir las búsquedas** en la URL, se puede sincronizar el valor del buscador con **query params** en la ruta de inicio (por ejemplo `/?search=...`), actualizándolos con `useRouter` / `router.replace` o `useSearchParams` cada vez que cambie el término de búsqueda.
 
 ### Estado del carrito
 
