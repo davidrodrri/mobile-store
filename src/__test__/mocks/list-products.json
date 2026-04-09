@@ -1,0 +1,86 @@
+[
+  {
+    "id": "SMG-S24U",
+    "brand": "Samsung",
+    "name": "Galaxy S24 Ultra",
+    "basePrice": 1329,
+    "imageUrl": "http://prueba-tecnica-api-tienda-moviles.onrender.com/images/SMG-S24U-titanium-violet.webp"
+  },
+  {
+    "id": "SMG-A25",
+    "brand": "Samsung",
+    "name": "Galaxy A25 5G",
+    "basePrice": 239,
+    "imageUrl": "http://prueba-tecnica-api-tienda-moviles.onrender.com/images/SMG-A25-negro.webp"
+  },
+  {
+    "id": "GPX-8A",
+    "brand": "Google",
+    "name": "Pixel 8a",
+    "basePrice": 459,
+    "imageUrl": "http://prueba-tecnica-api-tienda-moviles.onrender.com/images/GPX-8A-obsidiana.webp"
+  },
+  {
+    "id": "APL-I15PM",
+    "brand": "Apple",
+    "name": "iPhone 15 Pro Max",
+    "basePrice": 1319,
+    "imageUrl": "http://prueba-tecnica-api-tienda-moviles.onrender.com/images/APL-I15PM-titanio-negro.webp"
+  },
+  {
+    "id": "OPP-A18",
+    "brand": "OPPO",
+    "name": "A18",
+    "basePrice": 99,
+    "imageUrl": "http://prueba-tecnica-api-tienda-moviles.onrender.com/images/OPP-A18-azul-brillante.webp"
+  },
+  {
+    "id": "XMI-RN13P5G",
+    "brand": "Xiaomi",
+    "name": "Redmi Note 13 Pro 5G",
+    "basePrice": 399,
+    "imageUrl": "http://prueba-tecnica-api-tienda-moviles.onrender.com/images/XMI-RN13P5G-midnight-black.webp"
+  },
+  {
+    "id": "XMI-RN13P5G",
+    "brand": "Xiaomi",
+    "name": "Redmi Note 13 Pro 5G",
+    "basePrice": 399,
+    "imageUrl": "http://prueba-tecnica-api-tienda-moviles.onrender.com/images/XMI-RN13P5G-midnight-black.webp"
+  },
+  {
+    "id": "APL-IP13-128",
+    "brand": "Apple",
+    "name": "iPhone 13",
+    "basePrice": 619,
+    "imageUrl": "http://prueba-tecnica-api-tienda-moviles.onrender.com/images/APL-IP13-128-medianoche.webp"
+  },
+  {
+    "id": "OPP-R11F",
+    "brand": "OPPO",
+    "name": "Reno 11 F",
+    "basePrice": 269,
+    "imageUrl": "http://prueba-tecnica-api-tienda-moviles.onrender.com/images/OPP-R11F-verde.webp"
+  },
+  {
+    "id": "XIA-RN13",
+    "brand": "Xiaomi",
+    "name": "Redmi Note 13",
+    "basePrice": 169,
+    "imageUrl": "http://prueba-tecnica-api-tienda-moviles.onrender.com/images/XIA-RN13-mint-green.webp"
+  },
+  {
+    "id": "XMI-14",
+    "brand": "Xiaomi",
+    "name": "14",
+    "basePrice": 899,
+    "imageUrl": "http://prueba-tecnica-api-tienda-moviles.onrender.com/images/XMI-14-negro.webp"
+  },
+  {
+    "id": "SMG-A35",
+    "brand": "Samsung",
+    "name": "Galaxy A35 5G",
+    "basePrice": 333,
+    "imageUrl": "http://prueba-tecnica-api-tienda-moviles.onrender.com/images/SMG-A35-light-blue.webp"
+  }
+]

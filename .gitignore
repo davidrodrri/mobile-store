@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+
+# Build output
+.next/
+out/
+
+# Production
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env*
+!.env.example
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Test coverage
+coverage/
+test-results/
+
+# TypeScript
+*.tsbuildinfo
+
+# Next.js export
+export/
+
+# Optional: ESLint/Prettier cache
+.eslintcache
+.prettiercache
+
+# Optional: Turbo/Next.js cache
+.cache/
+turbo/
